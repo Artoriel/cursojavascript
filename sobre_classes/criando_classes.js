@@ -19,7 +19,7 @@ function Pessoa2(nome,sobrenome){
     this.sobrenome = sobrenome;
 }
 
-Pessoa2.prototype.falar = function(){
+Pessoa2.prototype.falar = () => {
     console.log(`${this.nome} está falando`);
 };
 
